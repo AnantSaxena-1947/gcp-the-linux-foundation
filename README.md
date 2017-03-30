@@ -3,8 +3,13 @@
 
 ## Build Instructions
 
+* You need 'libcurl'
+* To install libcurl do ``` apt-get install libcurl4-gnutls-dev ```
+* You can also install libcurl by ``` apt-get install libcurl4-openssl-dev ```
+
 ### Build from terminal
-* g++ utils.h gcp.cpp main.cpp -lcurl
+* Go to gcp directory
+* do g++ utils.h gcp.cpp main.cpp -lcurl
 
 ### Build using eclipse
 * If you have eclipse for C++, you can directly import this code.
